@@ -1,0 +1,25 @@
+{
+  "name": "commonjs-y-amd-kevmch",
+  "version": "1.0.0",
+  "description": "Chapter 10 of Eloquentjs book",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-MII-CA-1718/commonjs-y-amd-KevMCh.git"
+  },
+  "keywords": [
+    "commonjs",
+    "amd",
+    "modules",
+    "eloquentjs"
+  ],
+  "author": "Kevin Martín Chinea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-MII-CA-1718/commonjs-y-amd-KevMCh/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-MII-CA-1718/commonjs-y-amd-KevMCh#readme"
+}
