@@ -19,13 +19,13 @@ describe("Modules", function() {
     define = require("../src/slow-loading-modules/amd.js");
 
     it("Day by number", function() {
-      define(["./src/slow-loading-modules/day-name"], function(weekDay) {
+      define([__dirname + "/../src/slow-loading-modules/day-name"], function(weekDay) {
         assert(weekDay.name(6) === "Saturday");
       });
     });
 
     it("Number of the day", function() {
-      define(["./src/slow-loading-modules/day-name"], function(weekDay) {
+      define([__dirname + "/../src/slow-loading-modules/day-name"], function(weekDay) {
         assert(weekDay.number("Sunday") === 0);
       });
     });
