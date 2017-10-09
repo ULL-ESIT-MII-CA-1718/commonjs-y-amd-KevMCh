@@ -5,9 +5,10 @@ var defineCache = Object.create(null);
 var currentMod = null;
 
 function getModule(name) {
-  if (name in defineCache)
+  /* if (name in defineCache)
     return defineCache[name];
-
+  */
+  
   var module = {
     exports: null,
 		loaded: false,
