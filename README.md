@@ -20,6 +20,8 @@ Asynchronous module system with module load on demand.
 
 * [Example](https://github.com/ULL-ESIT-MII-CA-1718/commonjs-y-amd-KevMCh/tree/master/src/slow-loading-modules)
 
+* [Example with the Dojo Toolkit](https://github.com/ULL-ESIT-MII-CA-1718/commonjs-y-amd-KevMCh/tree/master/dojo)
+
 ### Personal Data
 * *[My GitHub Page](https://kevmch.github.io/)*
 
