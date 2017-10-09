@@ -1,13 +1,13 @@
 var fs = require('fs');
-var backgroundReadFile = fs.readFile;
+var backgroundReadFile = fs.readFileSync;
 
 var defineCache = Object.create(null);
 var currentMod = null;
 
 function getModule(name) {
-  /* if (name in defineCache)
+  if (name in defineCache)
     return defineCache[name];
-  */
+  
   
   var module = {
     exports: null,
